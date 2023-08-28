@@ -9,8 +9,16 @@
 - #####  Clonando o repositório
 ***git clone https://github.com/jonatasfernandessilva7/driverLinux.git***
 - #### Compilando o driver
-  Após abrir um terminal dentro da pasta do projeto execute o comando : ***make***
+  Depois de clonar abra um terminal dentro da pasta do projeto e execute o comando : ***make***
+- ### Depois de compilar
+  Após o driver estar compildo basta rodar, para isso execute os comandos abaixo:
 
+  - *sudo su*, para entrar em modo administrador
+  - *insmod driver.ko*, para instalar o driver na sua máquina
+  - *lsmod | head -10*, para vizualizar o driver
+  - *dmesg | tail*, para vizualizar a mensagem do driver
+
+*Para remover o driver execute: rm -r driver*
   
 ### Autor
 
