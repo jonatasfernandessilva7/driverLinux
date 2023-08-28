@@ -7,7 +7,7 @@
 ### Passo a passo
 
 - #####  Clonando o repositório
-***git clone ***
+***git clone https://github.com/jonatasfernandessilva7/driverLinux.git***
 - #### Compilando o driver
   Após abrir um terminal dentro da pasta do projeto execute o comando : ***make***
 
